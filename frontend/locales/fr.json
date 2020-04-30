@@ -1,0 +1,35 @@
+{
+    "Moti": "Moti",
+    "err": {
+        "unknown": "Erreur inconnue."
+    },
+    "nav": {
+        "loginMsg": "Connecté en tant que {name}.",
+        "dash": "tableau de bord",
+        "team": "paramètres équipe",
+        "login": "connexion",
+        "logout": "déconnexion"
+    },
+    "home": {
+        "welcomeMsg": "Bienvenue chez Moti I11l!"
+    },
+    "auth": {
+        "email": "Email",
+        "name": "Nom",
+        "password": "Mot de passe",
+        "passcheck": "Confirmer mot de passe",
+        "loginTtl": "Authentification",
+        "loginBut": "Connexion",
+        "loginSub": "Connexion en cours…",
+        "signupTtl": "Enregistrement",
+        "signupBut": "Inscription",
+        "signupSub": "Inscription en cours…",
+        "register1": "Êtes-vous nouveau?",
+        "register2": "Créez un compte!",
+        "err": {
+            "badCredentials": "Identifiant ou mot de passe éroné.",
+            "usernameTaken": "Un utilisateur avec cette addresse existe déjà.",
+            "passcheckFailed": "Les mots de passe doivent être identiques."
+        }
+    }
+}

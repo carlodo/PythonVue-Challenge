@@ -1,0 +1,35 @@
+{
+    "Moti": "Moti",
+    "err": {
+        "unknown": "Unkown error."
+    },
+    "nav": {
+        "loginMsg": "Logged in as {name}.",
+        "dash": "dashboard",
+        "team": "team settings",
+        "login": "log in",
+        "logout": "log out"
+    },
+    "home": {
+        "welcomeMsg": "Welcome to Moti I11l!"
+    },
+    "auth": {
+        "email": "Email",
+        "name": "Name",
+        "password": "Password",
+        "passcheck": "Confirm password",
+        "loginTtl": "Authentication",
+        "loginBut": "Log in",
+        "loginSub": "Logging in…",
+        "signupTtl": "Registration",
+        "signupBut": "Sign up",
+        "signupSub": "Signing up…",
+        "register1": "Are you new?",
+        "register2": "Sign up!",
+        "err": {
+            "badCredentials": "User and password do not match.",
+            "usernameTaken": "A user with this email address already exists.",
+            "passcheckFailed": "Passwords must match."
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "Moti": "Moti",
+    "err": {
+        "unknown": "Erro desconhecido."
+    },
+    "nav": {
+        "loginMsg": "Logado como {name}.",
+        "dash": "painel de instrumentos",
+        "team": "definições da equipa",
+        "login": "conexào",
+        "logout": "desligar"
+    },
+    "home": {
+        "welcomeMsg": "Bem-vindo ao Moti I11l!"
+    },
+    "auth": {
+        "email": "Email",
+        "name": "Nome",
+        "password": "Senha",
+        "passcheck": "Confirmar senha",
+        "loginTtl": "Autenticação",
+        "loginBut": "Login",
+        "loginSub": "Login em progresso…",
+        "signupTtl": "Inscrição",
+        "signupBut": "Inscrição",
+        "signupSub": "Inscrição em curso…",
+        "register1": "Você é novo?",
+        "register2": "Criar uma conta!",
+        "err": {
+            "badCredentials": "Username ou senhe errados.",
+            "usernameTaken": "Um utilizador com este endereço já existe.",
+            "passcheckFailed": "As senhas tem que ser idênticas."
+        }
+    }
+}
