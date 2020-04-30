@@ -2,6 +2,7 @@
   <div>
     <div>
       <p>{{message}}</p>
+      <input v-model="motto" @keyup="update" placeholder="Your motto" />
     </div>
   </div>
 </template>
@@ -11,7 +12,7 @@ import { authFetch } from './Auth.vue'
 
 export default {
   name: 'Dashboard',
-  data: () => ({ message: '' }),
+  data: () => ({ message: '', motto: '' }),
   created () { this.dashboard() },
   methods: {
     dashboard () {
@@ -22,8 +23,18 @@ export default {
             this.message = resp.error
           } else {
             this.message = resp.name
+            this.motto = resp.motto
           }
         })
+        .catch(err => console.log(err))
+    },
+    update () {
+      const opts = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application.json' },
+        body: JSON.stringify({ motto: this.motto })
+      }
+      authFetch('/api/dashboard/', opts)
         .catch(err => console.log(err))
     }
   }
