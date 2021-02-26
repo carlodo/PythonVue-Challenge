@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 
-install_requires = ['aiohttp==3.6.2',
+install_requires = ['aiohttp==3.7.4',
                     'pyjwt==1.7.1',
                     'pymongo==3.9.0',
                     'bcrypt==3.1.7']
